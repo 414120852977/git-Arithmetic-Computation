@@ -23,4 +23,10 @@ read $mul
 read $div
 read $mod
 
-echo ${sum[@]} ${mul[@]} ${div[@]} ${mod[@]}
+ echo ${sum[@]} ${mul[@]} ${div[@]} ${mod[@]}
+
+#sorting in descending order
+
+echo ${mul[@]} ${sum[@]} ${mod[@]} ${div[@]}
+
+
