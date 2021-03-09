@@ -9,4 +9,5 @@ mul=$(( a*b+c ))
 echo $mul
 div=$(( c+a/b ))
 echo $div
-
+mod=$(( a%b+c ))
+echo $mod
