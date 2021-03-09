@@ -16,3 +16,11 @@ mod=$(( a%b+c ))
 echo $mod
 #storing results into dictionary
 echo ${sum[@]} ${mul[@]} ${div[@]} ${mod[@]}
+#read values from dictionary into the array
+
+read $sum
+read $mul
+read $div
+read $mod
+
+echo ${sum[@]} ${mul[@]} ${div[@]} ${mod[@]}
