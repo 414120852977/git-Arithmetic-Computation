@@ -7,4 +7,6 @@ sum=$(( a+b*c ))
 echo $sum
 mul=$(( a*b+c ))
 echo $mul
+div=$(( c+a/b ))
+echo $div
 
