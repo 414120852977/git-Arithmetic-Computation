@@ -5,3 +5,6 @@ read -p "enter the third number :" c
 
 sum=$(( a+b*c ))
 echo $sum
+mul=$(( a*b+c ))
+echo $mul
+
