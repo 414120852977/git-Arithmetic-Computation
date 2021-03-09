@@ -29,4 +29,7 @@ read $mod
 
 echo ${mul[@]} ${sum[@]} ${mod[@]} ${div[@]}
 
+#sorting in ascending order
+
+echo ${div[@]} ${mod[@]} ${sum[@]} ${mul[@]}
 
